@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "crewai-fp"
+version = "0.1.0"
+description = ""
+authors = ["Veysel Aksin <32255510+veyselaksin@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+requests = "^2.32.3"
+crewai = "^0.41.1"
+unstructured = "^0.15.0"
+pyowm = "^3.3.0"
+tools = "^0.1.9"
+openai = "^1.37.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
