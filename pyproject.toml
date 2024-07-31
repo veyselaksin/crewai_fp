@@ -13,6 +13,8 @@ unstructured = "^0.15.0"
 pyowm = "^3.3.0"
 tools = "^0.1.9"
 openai = "^1.37.1"
+python-dotenv = "^1.0.1"
+decouple = "^0.0.7"
 
 
 [build-system]
